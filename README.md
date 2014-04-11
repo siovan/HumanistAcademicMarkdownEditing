@@ -1,10 +1,10 @@
 # MarkdownEditing
 
-Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more __robust__ syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, __GitHub flavored Markdown__, MultiMarkdown.
+Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light, dark and blackboard) with more __robust__ syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, __GitHub flavored Markdown__, MultiMarkdown.
 
 ![MarkdownEditing][github]
 
-[Dark][github 2] and [yellow][github 3] theme available.
+[Dark][github 2], [yellow][github 3] and [blackboard][github 10] theme available.
 
 > Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
 > 
@@ -132,10 +132,11 @@ If you want to override any of the default settings, you can open the appropriat
 
 Bold and italic markers are configurable through ST shell variables. You can use `Preferences > Package Settings > Markdown Editing` menu to see the default settings file. In order to override it, copy & paste its content into the user settings file (`Packages/User/Bold and Italic Markers.tmPreferences`) from the menu and make your edits. It is pretty straightforward.
 
-In order to activate the dark or the yellow theme, put one of these lines to your user settings file of the flavor (`Packages/User/[flavor].sublime-settings`):
+In order to activate the dark, the yellow or the blackboard theme, put one of these lines to your user settings file of the flavor (`Packages/User/[flavor].sublime-settings`):
 
     "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
     "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme",
+    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Blackboard.tmTheme",
 
 If you want to go with your already existing theme, you can reenable it with the same method as above. Keep in mind that, that theme may not cover all the parts of the Markdown syntax that this plugin defines.
 
@@ -198,6 +199,7 @@ MarkdownEditing is released under the [MIT License][opensource].
 [github 7]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/keyboard-shortcut.png
 [github 8]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/strikethrough.png
 [github 9]: https://github.com/maliayas
+[github 10]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/blackboard.png
 [opensource]: http://www.opensource.org/licenses/MIT
 [wbond]: http://wbond.net/sublime_packages/package_control
 [wbond 2]: http://wbond.net/sublime_packages/package_control/installation
