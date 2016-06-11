@@ -1,14 +1,24 @@
-# MarkdownEditing
+# HumanistAcademicMarkdownEditing
+
+The MarkdownEditing plugin for Sublime Text provides facilities for solid, general purpose markdown editing, and the Academic Markdown plugin that sits on top of it does a good job of adding footnote capabilities and other refinements necessary for academic writing.
+
+This plugin has several goals.
+
+1) to combine the two into a single package to make maintence easier
+
+2) to refine syntax coloring for the needs of scholars who work with many different kinds of text
+
+3) to expand syntax support for Pandoc Markdown (and perhaps eventually to incorporate full Pandoc support)
+
+4) to develop a way, either through language re-definition or through a plugin, to make the markdown language work with a wide variety of color schemes.
+
+# Old MarkdownEditing readme (will be updated, incorporated, or removed as time goes on)
 
 Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more __robust__ syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, __GitHub flavored Markdown__, MultiMarkdown.
 
 ![MarkdownEditing][github]
 
 [Dark][github 2] and [yellow][github 3] theme available.
-
-> Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
-> 
-> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=W2NXRPD43YSCU&amp;lc=TR&amp;item_name=Ali%20Ayas&amp;item_number=Open%20Source&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="[paypal]" /></a>
 
 ## Overview
 
