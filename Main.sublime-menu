@@ -12,18 +12,18 @@
                 "children":
                 [
                     {
-                        "caption": "Markdown Editing",
+                        "caption": "HumanistAcademicMarkdownEditing",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/README.md"},
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/README.md"},
                                 "caption": "README"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Bold and Italic Markers.tmPreferences"},
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/Bold and Italic Markers.tmPreferences"},
                                 "caption": "Bold and Italic Settings – Default"
                             },
                             {
@@ -34,7 +34,7 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Markdown.sublime-settings"},
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/Markdown.sublime-settings"},
                                 "caption": "Markdown GFM Settings – Default"
                             },
                             {
@@ -45,7 +45,7 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Markdown (Standard).sublime-settings"},
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/Markdown (Standard).sublime-settings"},
                                 "caption": "Markdown (Standard) Settings – Default"
                             },
                             {
@@ -56,13 +56,24 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/MultiMarkdown.sublime-settings"},
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/MultiMarkdown.sublime-settings"},
                                 "caption": "MultiMarkdown Settings – Default"
                             },
                             {
                                 "command": "open_file",
                                 "args": {"file": "${packages}/User/MultiMarkdown.sublime-settings"},
                                 "caption": "MultiMarkdown Settings – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/HumanistAcademicMarkdownEditing/AcademicMarkdown.sublime-settings"},
+                                "caption": "AcademicMarkdown Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/AcademicMarkdown.sublime-settings"},
+                                "caption": "AcademicMarkdown Settings – User"
                             },
                             { "caption": "-" }
                         ]

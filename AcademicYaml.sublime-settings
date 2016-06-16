@@ -1,6 +1,11 @@
 {
-	//"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
-	 "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+	"extensions":
+	[
+		"yaml"
+	],
+
+	"color_scheme": "Packages/AcademicMarkdown/AcademicMarkdownEditor.tmTheme",
+	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
 	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme",
 
 	// This is a quick and dirty focus theme. In order to make it work, you've to
